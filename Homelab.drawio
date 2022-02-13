@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T20:50:55.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="JoWtrcYwuLkmebt0F2Ns" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-13T21:49:29.774Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="xHuS98VwemiDBQcImsAT" version="16.5.6" type="github">
   <diagram id="ZlZxUqYzVOOaiIdk32MT" name="Page-1">
-    <mxGraphModel dx="2062" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VaQZiIwi53ZDD21OUIRq-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="360" y="90" width="290" height="150" as="geometry" />
+          <mxGeometry x="470" y="120" width="290" height="150" as="geometry" />
         </mxCell>
         <mxCell id="AtH_D0fYJWxPFJwmxlsa-1" value="Modem" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="VaQZiIwi53ZDD21OUIRq-1" vertex="1">
           <mxGeometry width="120" height="60" as="geometry" />
@@ -13,7 +13,7 @@
         <mxCell id="AtH_D0fYJWxPFJwmxlsa-2" value="Router&lt;br&gt;(DHCP)&lt;br&gt;192.168.1.1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="VaQZiIwi53ZDD21OUIRq-1" vertex="1">
           <mxGeometry y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AtH_D0fYJWxPFJwmxlsa-3" value="Pihole &lt;br&gt;(DNS)&lt;br&gt;192.168.1.2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="VaQZiIwi53ZDD21OUIRq-1" vertex="1">
+        <mxCell id="AtH_D0fYJWxPFJwmxlsa-3" value="PI-01&lt;br&gt;(DNS)&lt;br&gt;192.168.1.2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="VaQZiIwi53ZDD21OUIRq-1" vertex="1">
           <mxGeometry x="170" y="90" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AtH_D0fYJWxPFJwmxlsa-4" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" parent="VaQZiIwi53ZDD21OUIRq-1" target="AtH_D0fYJWxPFJwmxlsa-1" edge="1">
