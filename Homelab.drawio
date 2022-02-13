@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T19:53:01.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="sBxoz6M-84aVyicHfyTG" version="16.5.6" type="github"><diagram id="ZlZxUqYzVOOaiIdk32MT" name="Page-1">1VZdb5swFP01SNvDImwgSh7bpFlUaVO0PLR9qjy4AWsGR8YEsl8/u9h8NktaVWv3hO/x9bF97uGC4y3S6qsg++Qbj4A52I0qx1s6GGN3itVDI8caQQj5NRILGhmsBbb0NxjQNWhBI8h7iZJzJum+D4Y8yyCUPYwIwct+2o6z/q57EsMI2IaEjdE7GsnEXsN124k10DgxW88CM5ESm2yAPCERLzuQd+N4C8G5rEdptQCm1bO61OtWJ2abgwnI5CULruT6cenuHm7vqs3qtkwrlpMvhuVAWGEurGuYmhPLo5VB8CKLQDO5jnddJlTCdk9CPVuqyisskSlTEVLDHc/kiqSU6aKvgR1A0pCoCbMZCAnVyVugRhvlKuApSHFUKWaB7xk5raGsvGWnOhZLOoWZGowYQ8QNdauZGhjZXiAhHkn4gxcShIOnTO19/VOPYj1CczxB09kETdD/I3DzJr6bwN5I4A1NuBIOu5+W37ef/yY0/rhCT92PJrQ/EnqkHmTRle6qKsp4Bn21+tKe1E7pI473OmsS2PDBUDwFy8pQ1NHRRLkU/FfThf2mChCNWvigBuqbQUQM8lwjHNeqU4vgmVJYTAAjkh76x3iuPmaHDafqgO07Nz9hBUuR80KEYFZ1e/yAKPD7RD4eENU6jIie7NJc+/UOCv6xg1DXPx07XewgqKi8t7lq3OFRUUujA8tyuevqsp1vbWfdid/TncHQnbPXunPQ8dD8rdypwvZHqk5v/0e9mz8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-13T20:50:55.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36" etag="JoWtrcYwuLkmebt0F2Ns" version="16.5.6" type="github">
+  <diagram id="ZlZxUqYzVOOaiIdk32MT" name="Page-1">
+    <mxGraphModel dx="2062" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VaQZiIwi53ZDD21OUIRq-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="90" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="AtH_D0fYJWxPFJwmxlsa-1" value="Modem" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="VaQZiIwi53ZDD21OUIRq-1" vertex="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AtH_D0fYJWxPFJwmxlsa-2" value="Router&lt;br&gt;(DHCP)&lt;br&gt;192.168.1.1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="VaQZiIwi53ZDD21OUIRq-1" vertex="1">
+          <mxGeometry y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AtH_D0fYJWxPFJwmxlsa-3" value="Pihole &lt;br&gt;(DNS)&lt;br&gt;192.168.1.2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="VaQZiIwi53ZDD21OUIRq-1" vertex="1">
+          <mxGeometry x="170" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AtH_D0fYJWxPFJwmxlsa-4" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;" parent="VaQZiIwi53ZDD21OUIRq-1" target="AtH_D0fYJWxPFJwmxlsa-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="90" as="sourcePoint" />
+            <mxPoint x="110" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AtH_D0fYJWxPFJwmxlsa-5" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="VaQZiIwi53ZDD21OUIRq-1" source="AtH_D0fYJWxPFJwmxlsa-3" target="AtH_D0fYJWxPFJwmxlsa-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="70" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
