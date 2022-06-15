@@ -1,5 +1,13 @@
-Set-ADDefaultDomainPasswordPolicy -Identity jdev.local -LockoutDuration 00:01:00 -LockoutObservationWindow 00:03:00 -ComplexityEnabled $false -ReversibleEncryptionEnabled $False
+#Enable RDP
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
 
-$NewPassword = (Read-Host -Prompt "Provide New Password" -AsSecureString) 
-Set-ADAccountPassword -Identity DavidChe -NewPassword $NewPassword -Reset
+#New Domain Admin
+$pw = Read-Host -Prompt 'Enter a Password for this user' -AsSecureString 
+New-ADUser -Name test05 -AccountPassword $pw -Passwordneverexpires $true -Enabled $true
+Add-ADGroupMember -Identity "Domain Admins" -Members test05
+
+#Install DC + ADDS
+Add-WindowsFeature AD-Domain-Services
+Install-ADDSForest -DomainName name.local -InstallDNS
