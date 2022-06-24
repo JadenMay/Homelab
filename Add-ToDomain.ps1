@@ -20,8 +20,10 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 192.168.1
 Write-Host -ForegroundColor Magenta "Joining jdev..."
 Add-Computer -Domain jdev -Credential jdev\jdevadmin
 
+#Shudown
+Write-Host -ForegroundColor Red "Restarting $env:Computername in 120 seconds. Hurry up."
+shutdown /r /f /t 120
+
 #Activation
 \\hyperv01\HyperVFiles\MicrosoftActivationScripts_1.5\All-In-One-Version\MAS_1.5_AIO_CRC32_21D20776.cmd -Credential jdev\jdevadmin
 
-#Shudown
-shutdown /r /f /t 0
