@@ -11,7 +11,7 @@ Rename-Computer $Name
 #Set IP Address
 Write-Host -ForegroundColor Cyan "Gimme the IP: " -NoNewline
 $EyePee = Read-Host
-New-NetIPAddress -InterfaceAlias Ethernet -IPAddress $EyePee -PrefixLength 24 -DefaultGateway 192.168.1.250
+New-NetIPAddress -InterfaceAlias Ethernet -IPAddress $EyePee -PrefixLength 24 -DefaultGateway 192.168.1.1
 
 #Set DNS
 Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 192.168.1.250
@@ -19,3 +19,9 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 192.168.1
 #Join Domain
 Write-Host -ForegroundColor Magenta "Joining jdev..."
 Add-Computer -Domain jdev -Credential jdev\jdevadmin
+
+#Activation
+\\hyperv01\HyperVFiles\MicrosoftActivationScripts_1.5\All-In-One-Version\MAS_1.5_AIO_CRC32_21D20776.cmd -Credential jdev\jdevadmin
+
+#Shudown
+shutdown /r /f /t 0
