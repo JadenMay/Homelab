@@ -67,8 +67,14 @@
                         <mxPoint x="224" y="280" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="BoPHo_X-6VkHfOXLUw6e-7" value="MOTHERBASE&lt;br&gt;192.168.1.117" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
-                    <mxGeometry x="726" y="737" width="120" height="60" as="geometry"/>
+                <mxCell id="BoPHo_X-6VkHfOXLUw6e-7" value="HYPERV01&lt;br&gt;192.168.1.117" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;" parent="1" vertex="1">
+                    <mxGeometry x="424" y="592" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;strokeWidth=4;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BoPHo_X-6VkHfOXLUw6e-2">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="600" y="370" as="sourcePoint"/>
+                        <mxPoint x="428" y="330" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -1,4 +1,21 @@
 #Enable RDP
+Write-Host -ForegroundColor Green "Enabling RDP"
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
-shutdown /r /f /t 0
+
+#Rename
+Write-Host -ForegroundColor Cyan "Name me pls: " -NoNewline
+$Name = Read-Host
+Rename-Computer $Name
+
+#Set IP Address
+Write-Host -ForegroundColor Cyan "Gimme the IP: " -NoNewline
+$EyePee = Read-Host
+New-NetIPAddress -InterfaceAlias Ethernet -IPAddress $EyePee -PrefixLength 24 -DefaultGateway 192.168.1.250
+
+#Set DNS
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 192.168.1.250
+
+#Join Domain
+Write-Host -ForegroundColor Magenta "Joining jdev..."
+Add-Computer -Domain jdev -Credential jdev\jdevadmin
