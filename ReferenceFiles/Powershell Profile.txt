@@ -1,0 +1,3 @@
+$Profile checks if a profile is initiated
+notepad $profile.allusersallhosts
+Dotsource your powershell profile filepath
