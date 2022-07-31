@@ -1,3 +1,6 @@
+#Get domain credential
+$Credential = Get-Credential -Credential jdev\jdevadmin
+
 #Enable RDP
 Write-Host -ForegroundColor Green "Enabling RDP..."
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
@@ -32,11 +35,11 @@ Set-DnsClientServerAddress -InterfaceAlias $NetAdapterArr[$Selection].name -Serv
 
 #Join Domain
 Write-Host -ForegroundColor Magenta "Joining jdev..."
-Add-Computer -Domain jdev -Credential jdev\jdevadmin
-
-#Shutdown
-Write-Host -ForegroundColor Red "Restarting $env:Computername in 120 seconds. Hurry up."
-shutdown /r /f /t 120
+Add-Computer -Domain jdev -Credential $Credential -OUPath "OU=Client Machines,OU=Computers,OU=Duhmain,DC=jdev,DC=local"
 
 #Activation
-\\dc01\c$\Tools\MicrosoftActivationScripts_1.5\All-In-One-Version\MAS_1.5_AIO_CRC32_21D20776.cmd -Credential jdev\jdevadmin
+\\dc01\c$\Tools\MicrosoftActivationScripts_1.5\All-In-One-Version\MAS_1.5_AIO_CRC32_21D20776.cmd -Credential $Credential
+
+#Shutdown
+Write-Host -ForegroundColor Red "Restarting $env:Computername in 30 seconds. Hurry up."
+shutdown /r /f /t 30
