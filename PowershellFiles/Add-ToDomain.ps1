@@ -3,6 +3,9 @@ Write-Host -ForegroundColor Green "Enabling RDP"
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -name "fDenyTSConnections" -value 0
 Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
 
+#Enable PsRemoting
+Enable-PSRemoting -Force
+
 #Rename
 Write-Host -ForegroundColor Cyan "Name me pls: " -NoNewline
 $Name = Read-Host
@@ -20,7 +23,7 @@ Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses 192.168.1
 Write-Host -ForegroundColor Magenta "Joining jdev..."
 Add-Computer -Domain jdev -Credential jdev\jdevadmin
 
-#Shudown
+#Shutdown
 Write-Host -ForegroundColor Red "Restarting $env:Computername in 120 seconds. Hurry up."
 shutdown /r /f /t 120
 
