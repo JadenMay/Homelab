@@ -1,5 +1,5 @@
 #Get domain credential
-$Credential = Get-Credential -Credential jdev\jdevadmin
+$Credential = Get-Credential
 
 #Enable RDP
 Write-Host -ForegroundColor Green "Enabling RDP..."
