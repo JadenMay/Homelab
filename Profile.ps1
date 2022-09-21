@@ -20,7 +20,7 @@ Function Test {
 }
 
 Function Say-Something {
-    D:\Git\Homelab\PowershellFunctions\Say-Something.ps1
+    D:\Git\Homelab\PowershellFunctions\Say-Something\Say-Something.ps1
 }
 
 <#
