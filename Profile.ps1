@@ -18,6 +18,10 @@ Function Test {
     D:\Git\Homelab\PowershellFunctions\Red.ps1
 }
 
+Function Say-Something {
+    D:\Git\Homelab\PowershellFunctions\Say-Something.ps1
+}
+
 <#
 Open Powershell admin window 
 
