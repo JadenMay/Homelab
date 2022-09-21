@@ -7,7 +7,7 @@ Function Profile {
     Write-Host "|        " -NoNewLine; Write-Host -foregroundcolor Green "Homelab Powershell Profile EST. 7/14/22" -NoNewLine; write-host "                                          |"
     Write-Host "|                                                                                         |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Test gives you Red" -NoNewline; write-host "                                                               |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Say-Something" -NoNewline; write-host "                                                               |"
+    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Say-Something" -NoNewline; write-host "                                                                    |"
     Write-Host "|                                                                                         |"
     Write-Host "#=========================================================================================#"
 }
