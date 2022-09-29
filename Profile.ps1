@@ -8,7 +8,6 @@ Function Profile {
     Write-Host "|                                                                                         |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Test gives you Red" -NoNewline; write-host "                                                               |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Say-Something" -NoNewline; write-host "                                                                    |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Get-Host" -NoNewline; write-host "                                                                         |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
