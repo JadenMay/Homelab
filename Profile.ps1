@@ -8,7 +8,7 @@ Function Profile {
     Write-Host "|                                                                                         |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Test gives you Red" -NoNewline; write-host "                                                               |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Say-Something" -NoNewline; write-host "                                                                    |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
+    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Show-Movies" -NoNewline; write-host "                                                                      |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
@@ -31,6 +31,10 @@ Function Say-Something {
 
 Function Get-Host {
     D:\Git\Homelab\PowershellFunctions\Get-Host.ps1
+}
+
+Function Show-Movies {
+    D:\Git\Homelab\PowershellFunctions\Show-Movies.ps1
 }
 
 <#
