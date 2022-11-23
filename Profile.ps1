@@ -9,7 +9,7 @@ Function Profile {
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Test gives you Red" -NoNewline; write-host "                                                               |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Say-Something" -NoNewline; write-host "                                                                    |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Show-Movies" -NoNewline; write-host "                                                                      |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
+    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Copy-SSH" -NoNewline; write-host "                                                                      |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
     Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
     Write-Host "|                                                                                         |"
@@ -35,6 +35,10 @@ Function Get-Host {
 
 Function Show-Movies {
     D:\Git\Homelab\PowershellFunctions\Show-Movies.ps1
+}
+
+Function Copy-SSH {
+    D:\Git\Homelab\PowershellFunctions\Copy-SSH\Copy-SSH.ps1
 }
 
 <#
