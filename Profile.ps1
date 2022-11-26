@@ -11,6 +11,7 @@ Function Profile {
     " -ForegroundColor Green
 }
 Profile
+Set-Alias -Name Profile Menu
 
 Function FunctionName {
     #filepath
