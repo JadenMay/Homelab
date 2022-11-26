@@ -4,7 +4,6 @@ Function Profile {
     Clear-Host
     Write-Host " Homelab Powershell Profile EST. 7/14/22" -ForegroundColor Magenta
     Write-Host "
-    Test gives you Red
     Say-Something
     Show-Movies
     Copy-SSH
