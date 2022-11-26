@@ -2,18 +2,13 @@ Set-Location C:\
 
 Function Profile {
     Clear-Host
-    Write-Host "#=========================================================================================#"
-    Write-Host "|                                                                                         |"
-    Write-Host "|        " -NoNewLine; Write-Host -foregroundcolor Green "Homelab Powershell Profile EST. 7/14/22" -NoNewLine; write-host "                                          |"
-    Write-Host "|                                                                                         |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Test gives you Red" -NoNewline; write-host "                                                               |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Say-Something" -NoNewline; write-host "                                                                    |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Show-Movies" -NoNewline; write-host "                                                                      |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Copy-SSH" -NoNewline; write-host "                                                                      |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
-    Write-Host "|        " -nonewline; write-host -foregroundcolor Cyan "Placeholder" -NoNewline; write-host "                                                                      |"
-    Write-Host "|                                                                                         |"
-    Write-Host "#=========================================================================================#"
+    Write-Host " Homelab Powershell Profile EST. 7/14/22" -ForegroundColor Magenta
+    Write-Host "
+    Test gives you Red
+    Say-Something
+    Show-Movies
+    Copy-SSH
+    " -ForegroundColor Green
 }
 Profile
 
