@@ -11,22 +11,14 @@ Function Profile {
     " -ForegroundColor Green
 }
 Profile
-Set-Alias -Name Profile Menu
+Set-Alias -Name menu -Value Profile
 
 Function FunctionName {
     #filepath
 }
 
-Function Test {
-    D:\Git\Homelab\PowershellFunctions\Red.ps1
-}
-
 Function Say-Something {
     D:\Git\Homelab\PowershellFunctions\Say-Something\Say-Something.ps1
-}
-
-Function Get-Host {
-    D:\Git\Homelab\PowershellFunctions\Get-Host.ps1
 }
 
 Function Show-Movies {
