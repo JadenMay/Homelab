@@ -1,7 +1,7 @@
-
 Write-Host -ForegroundColor Cyan "Gimme the local filepath: " -NoNewline
 $Filepath = Read-Host
 
+Write-Host -ForegroundColor Magenta "Example: jmay@linux01:/home/jmay"
 Write-Host -ForegroundColor Cyan "Gimme the destination (linux01 to go there)" -NoNewline
 $Dest = Read-Host
 
