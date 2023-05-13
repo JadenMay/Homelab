@@ -15,4 +15,14 @@ dism /online /cleanup-image /restorehealth
 sfc /scannow
 
 # Remove bloatware from computer (WIP, maybe select keywords for removal? i.e. if matches "zune" kill it)
-Get-AppxProvisionedPackage -Online | select -displayname
+$Packages = Get-AppxProvisionedPackage -Online
+
+
+Remove-AppxProvisionedPackage -PackageName "Microsoft.BingNews"
+Remove-AppxProvisionedPackage -PackageName "Microsoft.GamingApp"
+Remove-AppxProvisionedPackage -PackageName "Microsoft.ScreenSketch"
+Remove-AppxProvisionedPackage -PackageName "Microsoft.Whiteboard"
+Remove-AppxProvisionedPackage -PackageName "Microsoft.WindowsAlarms"
+Remove-AppxProvisionedPackage -PackageName "Microsoft.ZuneMusic"
+Remove-AppxProvisionedPackage -PackageName "MicrosoftTeams"
+
