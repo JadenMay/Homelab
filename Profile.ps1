@@ -1,4 +1,5 @@
 Set-Location C:\
+$FunctionLocation = "C:\.THANGS\Lab\Homelab\PowershellFunctions"
 
 Function Profile {
     Clear-Host
@@ -12,22 +13,24 @@ Function Profile {
 Profile
 Set-Alias -Name menu -Value Profile
 
+<# This is a template
 Function FunctionName {
     #filepath
 }
+#>
 
 Function Say-Something {
-    D:\Git\Homelab\PowershellFunctions\Say-Something\Say-Something.ps1
+    . $FunctionLocation\Say-Something\Say-Something.ps1
 }
 
 Function Show-Movies {
-    D:\Git\Homelab\PowershellFunctions\Show-Movies.ps1
+    . $FunctionLocation\Show-Movies.ps1
 }
 
 Function Copy-SSH {
-    D:\Git\Homelab\PowershellFunctions\Copy-SSH\Copy-SSH.ps1
+    . $FunctionLocation\Copy-SSH\Copy-SSH.ps1
 }
 
 Function MAS {
-
+    . $FunctionLocation\MAS.ps1
 }
