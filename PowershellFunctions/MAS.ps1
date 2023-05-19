@@ -1,1 +1,1 @@
-powershell irm https://massgrave.dev/get | iex
+irm https://massgrave.dev/get | iex
