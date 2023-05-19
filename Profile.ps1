@@ -28,16 +28,6 @@ Function Copy-SSH {
     D:\Git\Homelab\PowershellFunctions\Copy-SSH\Copy-SSH.ps1
 }
 
-<#
-Open Powershell admin window 
+Function MAS {
 
-Enter:  
-
-notepad $profile.allusersallhosts 
-
-Save the document 
-
-C/P the contents of \\sccm\sandbox$\Scripts\PutonindividualPC.ps1 into the notepad file and save it 
-
-Make sure execution policy is set to bypass 
-#>
+}
