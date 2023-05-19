@@ -1,5 +1,5 @@
 Set-Location C:\
-$FunctionLocation = "C:\.THANGS\Lab\Homelab\PowershellFunctions"
+$FunctionLocation = 'C:\.THANGS\Lab\Homelab\PowershellFunctions'
 
 Function Profile {
     Clear-Host
