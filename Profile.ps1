@@ -8,6 +8,7 @@ Function Profile {
     Say-Something
     Show-Movies
     Copy-SSH
+    MAS
     " -ForegroundColor Green
 }
 Profile
