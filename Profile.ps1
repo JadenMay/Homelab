@@ -1,4 +1,5 @@
 Set-Location C:\
+$FunctionLocation = 'C:\.THANGS\Lab\Homelab\PowershellFunctions'
 
 Function Profile {
     Clear-Host
@@ -7,37 +8,30 @@ Function Profile {
     Say-Something
     Show-Movies
     Copy-SSH
+    MAS
     " -ForegroundColor Green
 }
 Profile
 Set-Alias -Name menu -Value Profile
 
+<# This is a template
 Function FunctionName {
     #filepath
 }
+#>
 
 Function Say-Something {
-    D:\Git\Homelab\PowershellFunctions\Say-Something\Say-Something.ps1
+    . $FunctionLocation\Say-Something\Say-Something.ps1
 }
 
 Function Show-Movies {
-    D:\Git\Homelab\PowershellFunctions\Show-Movies.ps1
+    . $FunctionLocation\Show-Movies.ps1
 }
 
 Function Copy-SSH {
-    D:\Git\Homelab\PowershellFunctions\Copy-SSH\Copy-SSH.ps1
+    . $FunctionLocation\Copy-SSH\Copy-SSH.ps1
 }
 
-<#
-Open Powershell admin window 
-
-Enter:  
-
-notepad $profile.allusersallhosts 
-
-Save the document 
-
-C/P the contents of \\sccm\sandbox$\Scripts\PutonindividualPC.ps1 into the notepad file and save it 
-
-Make sure execution policy is set to bypass 
-#>
+Function MAS {
+    . $FunctionLocation\MAS.ps1
+}
