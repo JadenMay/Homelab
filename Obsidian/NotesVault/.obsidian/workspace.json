@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "ec1a279db0a44c67",
+    "type": "split",
+    "children": [
+      {
+        "id": "90f5ba8e04ec9135",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7f1bf18f0f6e7d5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7d69f145350897d",
+    "type": "split",
+    "children": [
+      {
+        "id": "60758458ca61cb16",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43e3d7decc048912",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f5f978277f328bed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4e505726c0582b77",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8d222f4efdcaf136",
+    "type": "split",
+    "children": [
+      {
+        "id": "74be124e58dcb99a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3ac6cb1df834a33e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "52515a9ca394bedd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "59039ab4f19db4be",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cf94eef90956bcbb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e7f1bf18f0f6e7d5",
+  "lastOpenFiles": [
+    "192.168.1.250 - pihole/Setup.md",
+    "192.168.1.215 - grafana/Setup.md",
+    "192.168.1.254 - Cisco SG300",
+    "192.168.1.250 - pihole",
+    "192.168.1.233 - docker03",
+    "192.168.1.232 - docker02",
+    "192.168.1.231 - docker01",
+    "192.168.1.216 - prometheus",
+    "192.168.1.212 - proxmox00/Setup.md",
+    "192.168.1.215 - grafana",
+    "192.168.1.211 - proxmox02/Setup.md",
+    "192.168.1.212 - proxmox00",
+    "192.168.1.210 - silver/Setup.md",
+    "192.168.1.211 - proxmox02",
+    "192.168.1.207 - cmk/Setup.md",
+    "192.168.1.210 - silver",
+    "192.168.1.225 - Plex/z_Archive.md",
+    "192.168.1.225 - Plex/Current Setup.md"
+  ]
+}
