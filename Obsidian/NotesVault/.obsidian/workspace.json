@@ -11,8 +11,12 @@
             "id": "e7f1bf18f0f6e7d5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "192.168.1.254 - Cisco SG300/Setup.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "192.168.1.254 - Cisco SG300/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "192.168.1.254 - Cisco SG300/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "192.168.1.254 - Cisco SG300/Setup.md"
+              }
             }
           }
         ]
@@ -140,6 +148,16 @@
   },
   "active": "e7f1bf18f0f6e7d5",
   "lastOpenFiles": [
+    "192.168.1.233 - docker03/Setup.md",
+    "192.168.1.254 - Cisco SG300/Setup.md",
+    "192.168.1.232 - docker02/Setup.md",
+    "192.168.1.231 - docker01/Setup.md",
+    "192.168.1.216 - prometheus/Setup.md",
+    "192.168.1.204 - R6700v2 AP/Setup.md",
+    "192.168.1.203 - pixel1_ftp/Setup.md",
+    "192.168.1.202 - SL-MAYJ/Setup.md",
+    "192.168.1.201 - PC-MAYJ/Setup.md",
+    "192.168.1.1 - OPNSense/Setup.md",
     "192.168.1.250 - pihole/Setup.md",
     "192.168.1.215 - grafana/Setup.md",
     "192.168.1.254 - Cisco SG300",
