@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "90f5ba8e04ec9135",
+        "id": "3b17ee0b12a88f57",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f1bf18f0f6e7d5",
+            "id": "19d293824b92fc5d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "192.168.1.254 - Cisco SG300/Setup.md",
+                "file": "192.168.1.1 - OPNSense/Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "192.168.1.254 - Cisco SG300/Setup.md",
+                "file": "192.168.1.1 - OPNSense/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "192.168.1.254 - Cisco SG300/Setup.md",
+                "file": "192.168.1.1 - OPNSense/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "192.168.1.254 - Cisco SG300/Setup.md"
+                "file": "192.168.1.1 - OPNSense/Setup.md"
               }
             }
           }
@@ -146,10 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e7f1bf18f0f6e7d5",
+  "active": "19d293824b92fc5d",
   "lastOpenFiles": [
-    "192.168.1.233 - docker03/Setup.md",
+    "Untitled.canvas",
+    "192.168.1.1 - OPNSense/Setup.md",
     "192.168.1.254 - Cisco SG300/Setup.md",
+    "192.168.1.225 - Plex/Current Setup.md",
+    "192.168.1.225 - Plex/z_Archive.md",
+    "192.168.1.1 - OPNSense/config-OPNsense.jmayhomelab-20230608172151.xml",
+    "192.168.1.233 - docker03/Setup.md",
     "192.168.1.232 - docker02/Setup.md",
     "192.168.1.231 - docker01/Setup.md",
     "192.168.1.216 - prometheus/Setup.md",
@@ -157,7 +162,6 @@
     "192.168.1.203 - pixel1_ftp/Setup.md",
     "192.168.1.202 - SL-MAYJ/Setup.md",
     "192.168.1.201 - PC-MAYJ/Setup.md",
-    "192.168.1.1 - OPNSense/Setup.md",
     "192.168.1.250 - pihole/Setup.md",
     "192.168.1.215 - grafana/Setup.md",
     "192.168.1.254 - Cisco SG300",
@@ -172,9 +176,6 @@
     "192.168.1.212 - proxmox00",
     "192.168.1.210 - silver/Setup.md",
     "192.168.1.211 - proxmox02",
-    "192.168.1.207 - cmk/Setup.md",
-    "192.168.1.210 - silver",
-    "192.168.1.225 - Plex/z_Archive.md",
-    "192.168.1.225 - Plex/Current Setup.md"
+    "192.168.1.207 - cmk/Setup.md"
   ]
 }
