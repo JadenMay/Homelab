@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "192.168.1.251 - Unifi Controller/Setup.md",
+                "file": "10.0.0.210 - minecraft/Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "192.168.1.251 - Unifi Controller/Setup.md",
+                "file": "10.0.0.210 - minecraft/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "192.168.1.251 - Unifi Controller/Setup.md",
+                "file": "10.0.0.210 - minecraft/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "192.168.1.251 - Unifi Controller/Setup.md"
+                "file": "10.0.0.210 - minecraft/Setup.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "9a46bdcdfea17e61",
   "lastOpenFiles": [
-    "192.168.1.252 - Unifi U6 Lite/Setup.md",
     "192.168.1.251 - Unifi Controller/Setup.md",
+    "192.168.1.252 - Unifi U6 Lite/Setup.md",
     "192.168.1.252 - Unifi U6 Lite",
     "192.168.1.1 - OPNSense/Setup.md",
     "192.168.1.251 - Unifi Controller",
