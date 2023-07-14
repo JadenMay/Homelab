@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10.0.0.250 - pve-pihole/Setup.md",
+                "file": "10.0.0.210 - minecraft/Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10.0.0.250 - pve-pihole/Setup.md",
+                "file": "10.0.0.210 - minecraft/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10.0.0.250 - pve-pihole/Setup.md",
+                "file": "10.0.0.210 - minecraft/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.0.0.250 - pve-pihole/Setup.md"
+                "file": "10.0.0.210 - minecraft/Setup.md"
               }
             }
           }
@@ -146,11 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43e3d7decc048912",
+  "active": "e7f1bf18f0f6e7d5",
   "lastOpenFiles": [
+    "Untitled.md",
+    "10.0.0.210 - minecraft/Setup.md",
+    "10.0.0.250 - pve-pihole/Setup.md",
+    "10.0.0.210 - minecraft",
     "10.0.0.201 - PC-MAYJ",
     "192.168.1.203 - pixel1_ftp/Setup.md",
-    "10.0.0.250 - pve-pihole/Setup.md",
     "10.0.0.250 - pve-pihole",
     "192.168.1.202 - SL-MAYJ/Setup.md",
     "192.168.1.201 - PC-MAYJ/Setup.md",
@@ -172,9 +175,7 @@
     "192.168.1.212 - proxmox00/Setup.md",
     "192.168.1.215 - grafana",
     "192.168.1.211 - proxmox02/Setup.md",
-    "192.168.1.212 - proxmox00",
     "192.168.1.210 - silver/Setup.md",
-    "192.168.1.211 - proxmox02",
     "192.168.1.207 - cmk/Setup.md",
     "192.168.1.225 - Plex/z_Archive.md",
     "192.168.1.225 - Plex/Current Setup.md"
