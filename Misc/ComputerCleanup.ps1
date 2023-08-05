@@ -17,7 +17,7 @@ sfc /scannow
 # Remove bloatware from computer (WIP, maybe select keywords for removal? i.e. if matches "zune" kill it)
 $Packages = Get-AppxProvisionedPackage -Online
 
-$Packages | ForEach-Object -Process {Write"$_"}
+$Packages | ForEach-Object -Process {Write $_.DisplayName}
 
 Remove-AppxProvisionedPackage -PackageName "Microsoft.BingNews"
 Remove-AppxProvisionedPackage -PackageName "Microsoft.GamingApp"
