@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md",
+                "file": "Good to know/Extend PVE Boot Disk.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md",
+                "file": "Good to know/Extend PVE Boot Disk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md",
+                "file": "Good to know/Extend PVE Boot Disk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md"
+                "file": "Good to know/Extend PVE Boot Disk.md"
               }
             }
           }
@@ -146,17 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43e3d7decc048912",
+  "active": "9a46bdcdfea17e61",
   "lastOpenFiles": [
-    "10.0.0.0 - jdev/10.0.0.240 - Wazuh/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
+    "Good to know/Extend PVE Boot Disk.md",
+    "Good to know",
+    "192.168.1.0 - Default Network/192.168.1.225 - Plex/z_Archive.md",
+    "192.168.1.0 - Default Network/192.168.1.225 - Plex/Current Setup.md",
     "10.0.0.0 - jdev/10.0.0.210 - minecraft/Setup.md",
+    "10.0.0.0 - jdev/10.0.0.223 - docker03/Setup.md",
+    "10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md",
+    "10.0.0.0 - jdev/10.0.0.223 - docker03",
+    "10.0.0.0 - jdev/10.0.0.240 - Wazuh/Setup.md",
     "10.0.0.0 - jdev/10.0.0.240 - Wazuh",
     "10.0.0.0 - jdev/10.0.0.220 - proxmox00",
     "10.0.0.0 - jdev/10.0.0.1 - Gateway",
     "10.0.0.0 - jdev",
     "192.168.1.0 - Default Network",
-    "192.168.1.0 - Default Network/192.168.1.225 - Plex/Current Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.225 - Plex/z_Archive.md",
     "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.252 - Unifi U6 Lite/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.252 - Unifi U6 Lite",
@@ -176,9 +182,6 @@
     "192.168.1.0 - Default Network/192.168.1.202 - SL-MAYJ/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.215 - grafana/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.254 - Cisco SG300",
-    "192.168.1.0 - Default Network/192.168.1.250 - pihole",
-    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.211 - proxmox02/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.210 - silver/Setup.md"
   ]
