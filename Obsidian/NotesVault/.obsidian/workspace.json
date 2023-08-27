@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Good to know/Extend PVE Boot Disk.md",
+                "file": "Good to know/Mount ZFS pool as NFS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Good to know/Extend PVE Boot Disk.md",
+                "file": "Good to know/Mount ZFS pool as NFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Good to know/Extend PVE Boot Disk.md",
+                "file": "Good to know/Mount ZFS pool as NFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Good to know/Extend PVE Boot Disk.md"
+                "file": "Good to know/Mount ZFS pool as NFS.md"
               }
             }
           }
@@ -148,8 +148,9 @@
   },
   "active": "9a46bdcdfea17e61",
   "lastOpenFiles": [
-    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
     "Good to know/Extend PVE Boot Disk.md",
+    "Good to know/Mount ZFS pool as NFS.md",
+    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
     "Good to know",
     "192.168.1.0 - Default Network/192.168.1.225 - Plex/z_Archive.md",
     "192.168.1.0 - Default Network/192.168.1.225 - Plex/Current Setup.md",
