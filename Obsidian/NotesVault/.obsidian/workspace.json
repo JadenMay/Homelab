@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md"
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "631e8a6eb549f466",
   "lastOpenFiles": [
+    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.211 - proxmox02/Setup.md",
     "10.0.0.0 - jdev/10.0.0.223 - docker03/Setup.md",
     "10.0.0.0 - jdev/10.0.0.222 - docker02/Setup.md",
@@ -158,7 +159,6 @@
     "10.0.0.0 - jdev/10.0.0.225 - plexV2",
     "Good to know/Extend PVE Boot Disk.md",
     "Good to know/Mount ZFS pool as NFS.md",
-    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
     "Good to know",
     "10.0.0.0 - jdev/10.0.0.210 - minecraft/Setup.md",
     "10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md",
