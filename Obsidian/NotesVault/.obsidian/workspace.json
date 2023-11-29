@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md",
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md",
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md",
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md"
+                "file": "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "631e8a6eb549f466",
   "lastOpenFiles": [
+    "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.252 - Unifi U6 Lite/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
@@ -171,7 +172,6 @@
     "10.0.0.0 - jdev/10.0.0.1 - Gateway",
     "10.0.0.0 - jdev",
     "192.168.1.0 - Default Network",
-    "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.252 - Unifi U6 Lite",
     "192.168.1.0 - Default Network/192.168.1.1 - OPNSense/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller",
