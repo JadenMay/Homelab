@@ -8,5 +8,10 @@ services:
       - '81:81'
       - '443:443'
     volumes:
-      - ./data:/data
-      - ./letsencrypt:/etc/letsencrypt
+      - swarmstorage_npm_data:/data
+      - swarmstorage_npm_letsencrypt:/etc/letsencrypt
+volumes:
+  swarmstorage_npm_data:
+    external: true
+  swarmstorage_npm_letsencrypt:
+    external: true
