@@ -8,3 +8,6 @@ services:
     volumes:
       - /mnt/swarmstorage/homepage/config:/app/config # Make sure your local config directory exists
     restart: unless-stopped
+volumes:
+  swarmstorage:
+    external: true
