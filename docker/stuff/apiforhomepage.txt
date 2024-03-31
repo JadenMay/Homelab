@@ -1,0 +1,12 @@
+
+proxmox
+api@pam!homepage
+9c91c2af-fd5b-4e6a-91ac-0baefa70920d
+
+
+portainer key
+ptr_km555FS48nsEuDtw46pugkswaNjAwZVyVIwEYO8QSeQ=
+
+opnsense
+key=Gfvtc5M+Uq46taI9woiWV5YswMfHVjYSwCRy66wx/GPRPKdzlaeoaRjk+w5Ea8UTpyd9pG00z0LmRQa+
+secret=mgZ5TxoDMz3wfxQ68VpQ+ZzhApms+NwjzbpBlbLAQTd2XR2CTez25RqwDSPCbtIaDMVL2KtXQ/F8EsUR
