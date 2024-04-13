@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "cbfbbb9d560fcbb5",
+        "id": "e84951a455876863",
         "type": "tabs",
         "children": [
           {
-            "id": "19d95aa7d1b50cac",
+            "id": "fd1f412208d7e6b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
+                "file": "10.0.0.0 - jdev/10.0.0.0 - Subnet Info/IPAM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
+                "file": "10.0.0.0 - jdev/10.0.0.0 - Subnet Info/IPAM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md"
+                "file": "10.0.0.0 - jdev/10.0.0.0 - Subnet Info/IPAM.md"
               }
             }
           }
@@ -146,10 +142,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19d95aa7d1b50cac",
+  "active": "43e3d7decc048912",
   "lastOpenFiles": [
-    "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/How To.md",
+    "10.0.0.0 - jdev/10.0.0.251 - unifi controller/info.md",
+    "10.0.0.0 - jdev/10.0.0.0 - Subnet Info/IPAM.md",
+    "10.0.0.0 - jdev/10.0.0.0 - Subnet Info",
+    "10.0.0.0 - jdev/0 Subnet.md",
     "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
+    "10.0.0.0 - jdev/10.0.0.251 - unifi controller",
+    "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/How To.md",
     "SHAME/192.168.1.225 - Plex/Current Setup.md",
     "10.0.0.0 - jdev/10.0.0.103 - pve3",
     "10.0.0.0 - jdev/10.0.0.102 - pve2",
@@ -177,13 +178,8 @@
     "10.0.0.0 - jdev/10.0.0.222 - docker02/Setup.md",
     "10.0.0.0 - jdev/10.0.0.225 - plexV2/Setup.md",
     "10.0.0.0 - jdev/10.0.0.225 - plexV2",
-    "Good to know/Extend PVE Boot Disk.md",
-    "Good to know/Mount ZFS pool as NFS.md",
     "Good to know",
-    "10.0.0.0 - jdev/10.0.0.210 - minecraft/Setup.md",
     "10.0.0.0 - jdev/10.0.0.223 - docker03",
-    "10.0.0.0 - jdev/10.0.0.240 - Wazuh",
-    "10.0.0.0 - jdev/10.0.0.220 - proxmox00",
     "Untitled.canvas"
   ]
 }
