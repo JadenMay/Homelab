@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "54a6caa8df71fe28",
+        "id": "cbfbbb9d560fcbb5",
         "type": "tabs",
         "children": [
           {
-            "id": "631e8a6eb549f466",
+            "id": "19d95aa7d1b50cac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.221 - docker01/npm.md",
+                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 267.5
   },
   "right": {
     "id": "8d222f4efdcaf136",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.221 - docker01/npm.md",
+                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.221 - docker01/npm.md",
+                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10.0.0.0 - jdev/10.0.0.221 - docker01/npm.md"
+                "file": "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md"
               }
             }
           }
@@ -146,44 +146,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "631e8a6eb549f466",
+  "active": "19d95aa7d1b50cac",
   "lastOpenFiles": [
+    "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/How To.md",
+    "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
+    "SHAME/192.168.1.225 - Plex/Current Setup.md",
+    "10.0.0.0 - jdev/10.0.0.103 - pve3",
+    "10.0.0.0 - jdev/10.0.0.102 - pve2",
+    "10.0.0.0 - jdev/10.0.0.150 - TrueNAS",
+    "192.168.1.0 - Default Network/192.168.1.203 - pixel1_ftp/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.207 - cmk/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.210 - silver/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.216 - prometheus/Setup.md",
+    "SHAME/192.168.1.225 - Plex/z_Archive.md",
+    "SHAME/192.168.1.252 - Unifi U6 Lite/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.254 - Cisco SG300/Setup.md",
+    "SHAME/192.168.1.251 - Unifi Controller/Setup.md",
+    "SHAME/192.168.1.250 - pihole/Setup.md",
+    "10.0.0.0 - jdev/10.0.0.101 - pve1/pve1.md",
+    "192.168.1.0 - Default Network/192.168.1.202 - SL-MAYJ/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.201 - PC-MAYJ/Setup.md",
+    "192.168.1.0 - Default Network/192.168.1.1 - OPNSense/Setup.md",
+    "10.0.0.0 - jdev/10.0.0.101 - pve1",
+    "10.0.0.0 - jdev/10.0.0.1 - OPNSense",
     "10.0.0.0 - jdev/10.0.0.221 - docker01/Setup.md",
     "10.0.0.0 - jdev/10.0.0.221 - docker01/npm.md",
-    "192.168.1.0 - Default Network/192.168.1.212 - proxmox00/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.250 - pihole/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.252 - Unifi U6 Lite/Setup.md",
     "192.168.1.0 - Default Network/192.168.1.211 - proxmox02/Setup.md",
     "10.0.0.0 - jdev/10.0.0.223 - docker03/Setup.md",
     "10.0.0.0 - jdev/10.0.0.222 - docker02/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.225 - Plex/Current Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.225 - Plex/z_Archive.md",
     "10.0.0.0 - jdev/10.0.0.225 - plexV2/Setup.md",
     "10.0.0.0 - jdev/10.0.0.225 - plexV2",
     "Good to know/Extend PVE Boot Disk.md",
     "Good to know/Mount ZFS pool as NFS.md",
     "Good to know",
     "10.0.0.0 - jdev/10.0.0.210 - minecraft/Setup.md",
-    "10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md",
     "10.0.0.0 - jdev/10.0.0.223 - docker03",
-    "10.0.0.0 - jdev/10.0.0.240 - Wazuh/Setup.md",
     "10.0.0.0 - jdev/10.0.0.240 - Wazuh",
     "10.0.0.0 - jdev/10.0.0.220 - proxmox00",
-    "10.0.0.0 - jdev/10.0.0.1 - Gateway",
-    "10.0.0.0 - jdev",
-    "192.168.1.0 - Default Network",
-    "192.168.1.0 - Default Network/192.168.1.252 - Unifi U6 Lite",
-    "192.168.1.0 - Default Network/192.168.1.1 - OPNSense/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.251 - Unifi Controller",
-    "192.168.1.0 - Default Network/192.168.1.207 - cmk/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.203 - pixel1_ftp/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.201 - PC-MAYJ/Setup.md",
-    "Untitled.canvas",
-    "192.168.1.0 - Default Network/192.168.1.254 - Cisco SG300/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.233 - docker03/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.216 - prometheus/Setup.md",
-    "192.168.1.204 - R6700v2 AP/Setup.md",
-    "192.168.1.0 - Default Network/192.168.1.202 - SL-MAYJ/Setup.md"
+    "Untitled.canvas"
   ]
 }

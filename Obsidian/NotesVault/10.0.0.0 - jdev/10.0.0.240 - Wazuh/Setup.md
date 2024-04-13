@@ -1,3 +1,0 @@
-wazuh
-jmay
-Thataintfalc0!
