@@ -3,14 +3,14 @@ services:
     speedtest-tracker:
         container_name: speedtest-tracker
         ports:
-            - 8080:80
+            - 7498:80
             - 8443:443
         environment:
-            - PUID=1000
-            - PGID=1000
+            - PUID=1001
+            - PGID=1001
             - DB_CONNECTION=sqlite
         volumes:
-            - /mnt/swarmstorage/speedtest-tracker/config:/config
-            - /mnt/swarmstorage/speedtest-tracker/config/keys:/config/keys
+            - /mnt/truenas/speedtest-tracker/config:/config
+            - /mnt/truenas/speedtest-tracker/config/keys:/config/keys
         image: lscr.io/linuxserver/speedtest-tracker:latest
         restart: unless-stopped

@@ -8,8 +8,8 @@ services:
       - '81:81'
       - '443:443'
     volumes:
-      - /npm/data:/data
-      - /npm/letsencrypt:/etc/letsencrypt
+      - /mnt/truenas/npm/data:/data
+      - /mnt/truenas/npm/letsencrypt:/etc/letsencrypt
     environment:
       - PUID=1001
       - PGID=1001

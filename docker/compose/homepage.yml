@@ -6,6 +6,6 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - /mnt/swarmstorage/homepage/config:/app/config # Make sure your local config directory exists
-      - /mnt/swarmstorage/homepage/images:/app/public/images
+      - /mnt/truenas/homepage/config:/app/config # Make sure your local config directory exists
+      - /mnt/truenas/homepage/images:/app/public/images
     restart: unless-stopped
