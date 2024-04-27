@@ -9,6 +9,7 @@ services:
             - PUID=1001
             - PGID=1001
             - DB_CONNECTION=sqlite
+            - PUBLIC_DASHBOARD=true
         volumes:
             - /mnt/truenas/speedtest-tracker/config:/config
             - /mnt/truenas/speedtest-tracker/config/keys:/config/keys

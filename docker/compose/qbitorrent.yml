@@ -1,19 +1,51 @@
 ---
+version: "3.3"
 services:
-  qbittorrent:
-    image: lscr.io/linuxserver/qbittorrent:latest
-    container_name: qbittorrent
+  nordvpn:
+    container_name: GlueTun-Nord
+    image: qmcgaw/gluetun
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "8081:8081" # QbitTorrent UI
+      - "9092:9091" # Transmission
+      - "51413:51413" # Transmision
+      - "51413:51413/udp" # Transmision
+      - "51420:51420" # QbitTorrent
+      - "51420:51420/udp" # QbitTorrent
     environment:
+      - VPN_SERVICE_PROVIDER=nordvpn
+      - OPENVPN_USER=et6sJcDuHkbZZ1FjnBU63uw5
+      - OPENVPN_PASSWORD=Fc1e6EUB7Gmgy5Pf5brPL6UF
+      - VPN_TYPE=openvpn
+    restart: always
+  qbittorrent:
+    image: linuxserver/qbittorrent:4.5.2
+    network_mode: "service:nordvpn"
+    container_name: QbitTorrent-Nord
+    depends_on:
+      - nordvpn
+    environment:
+      - WEBUI_PORT=8081
       - PUID=1000
       - PGID=1000
-      - TZ=Cst/UTC
-      - WEBUI_PORT=8081
-      - TORRENTING_PORT=6881
+      - TZ=America/Chicago
     volumes:
-      - /mnt/truenas/qbittorrent/config:/config
-      - /mnt/truenas/qbittorrent/downloads:/downloads
-    ports:
-      - 8081:8081
-      - 6881:6881
-      - 6881:6881/udp
-    restart: unless-stopped
+      - "/mnt/truenas/qbittorrent/config:/config"
+      - "/mnt/truenas/qbittorrent/downloads:/downloads"
+    restart: always
+  transmission:
+    image: ghcr.io/linuxserver/transmission:4.0.2
+    network_mode: "service:nordvpn"
+    container_name: Transmission-Nord
+    depends_on:
+      - nordvpn
+    environment:
+      - PUID=1000
+      - PGID=10000
+      - TZ=America/Chicago
+    volumes:
+      - "/mnt/truenas/transmission/config:/config"
+      - "/mnt/notpiracy/downloads:/downloads"
+      - "/mnt/notpiracy/downloads/watch:/watch"
+    restart: always
