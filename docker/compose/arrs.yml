@@ -16,6 +16,9 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /mnt/truenas/radarr/config:/config
       - /mnt/truenas/radarr/data:/data
+      - /mnt/notpiracy/media/movies:/movies
+      - /mnt/notpiracy/media/downloads:/downloads
+  
   sonarr:
     container_name: sonarr
     image: ghcr.io/hotio/sonarr:latest
@@ -32,20 +35,44 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /mnt/truenas/sonarr/config:/config
       - /mnt/truenas/sonarr/data:/data
-  sabnzbd:
-    container_name: sabnzbd
-    image: ghcr.io/hotio/sabnzbd:latest
-    restart: unless-stopped
-    logging:
-      driver: json-file
-    ports:
-      - 8484:8080
-      - 9494:9090
+      - /mnt/notpiracy/media/shows:/shows
+  
+  lidarr:
+    image: lscr.io/linuxserver/lidarr:latest
+    container_name: lidarr
     environment:
-      - PUID=0
-      - PGID=0
-      - TZ=America/Chicago
+      - PUID=1000
+      - PGID=1000
+      - TZ=Cst/UTC
     volumes:
-      - /etc/localtime:/etc/localtime:ro
-      - /mnt/truenas/sabnzbd/config:/config
-      - /mnt/truenas/sabnzbd/data/usenet:/data/usenet:rw
+      - /mnt/truenas/lidarr/config:/config
+      - /mnt/notpiracy/media/music:/music #optional
+      - /mnt/truenas/lidarr/downloads:/downloads #optional
+    ports:
+      - 8686:8686
+    restart: unless-stopped
+
+  prowlarr:
+    image: lscr.io/linuxserver/prowlarr:latest
+    container_name: prowlarr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Cst/UTC
+    volumes:
+      - /mnt/truenas/prowlarr/config:/config
+    ports:
+      - 9696:9696
+    restart: unless-stopped
+
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    container_name: flaresolverr
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - LOG_HTML=${LOG_HTML:-false}
+      - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
+      - TZ=America/Chicago
+    ports:
+      - 8191:8191
+    restart: unless-stopped

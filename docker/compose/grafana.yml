@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  grafana:
+    image: grafana/grafana-enterprise
+    container_name: grafana
+    restart: unless-stopped
+    ports:
+      - 3001:3000
+    volumes:
+      - /mnt/truenas/grafana:/var/lib/grafana

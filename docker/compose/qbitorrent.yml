@@ -32,7 +32,7 @@ services:
       - TZ=America/Chicago
     volumes:
       - "/mnt/truenas/qbittorrent/config:/config"
-      - "/mnt/truenas/qbittorrent/downloads:/downloads"
+      - "/mnt/notpiracy/media/downloads:/downloads"
     restart: always
   transmission:
     image: ghcr.io/linuxserver/transmission:4.0.2
