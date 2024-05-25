@@ -14,8 +14,8 @@ services:
       - TZ=America/Chicago
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /mnt/truenas/radarr/config:/config
-      - /mnt/truenas/radarr/data:/data
+      - /mnt/tnssd/radarr/config:/config
+      - /mnt/tnssd/radarr/data:/data
       - /mnt/notpiracy/media/movies:/movies
       - /mnt/notpiracy/media/downloads:/downloads
   
@@ -33,21 +33,21 @@ services:
       - TZ=America/Chicago
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /mnt/truenas/sonarr/config:/config
-      - /mnt/truenas/sonarr/data:/data
+      - /mnt/tnssd/sonarr/config:/config
+      - /mnt/tnssd/sonarr/data:/data
       - /mnt/notpiracy/media/shows:/shows
   
   lidarr:
     image: lscr.io/linuxserver/lidarr:latest
     container_name: lidarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=0
+      - PGID=0
       - TZ=Cst/UTC
     volumes:
-      - /mnt/truenas/lidarr/config:/config
+      - /mnt/tnssd/lidarr/config:/config
       - /mnt/notpiracy/media/music:/music #optional
-      - /mnt/truenas/lidarr/downloads:/downloads #optional
+      - /mnt/tnssd/lidarr/downloads:/downloads #optional
     ports:
       - 8686:8686
     restart: unless-stopped
@@ -56,11 +56,11 @@ services:
     image: lscr.io/linuxserver/prowlarr:latest
     container_name: prowlarr
     environment:
-      - PUID=1000
-      - PGID=1000
+      - PUID=0
+      - PGID=0
       - TZ=Cst/UTC
     volumes:
-      - /mnt/truenas/prowlarr/config:/config
+      - /mnt/tnssd/prowlarr/config:/config
     ports:
       - 9696:9696
     restart: unless-stopped
