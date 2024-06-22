@@ -46,6 +46,6 @@ services:
       - TZ=America/Chicago
     volumes:
       - "/mnt/truenas/transmission/config:/config"
-      - "/mnt/notpiracy/downloads:/downloads"
+      - "/mnt/truenas/qbittorrent/downloads:/downloads"
       - "/mnt/notpiracy/downloads/watch:/watch"
     restart: always

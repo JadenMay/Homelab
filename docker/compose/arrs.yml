@@ -14,10 +14,10 @@ services:
       - TZ=America/Chicago
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /mnt/tnssd/radarr/config:/config
-      - /mnt/tnssd/radarr/data:/data
+      - /arrs/radarr/config:/config
+      - /arrs/radarr/data:/data
       - /mnt/notpiracy/media/movies:/movies
-      - /mnt/notpiracy/media/downloads:/downloads
+      - /mnt/truenas/qbittorrent/downloads:/downloads
   
   sonarr:
     container_name: sonarr
@@ -33,9 +33,10 @@ services:
       - TZ=America/Chicago
     volumes:
       - /etc/localtime:/etc/localtime:ro
-      - /mnt/tnssd/sonarr/config:/config
-      - /mnt/tnssd/sonarr/data:/data
+      - /arrs/sonarr/config:/config
+      - /arrs/sonarr/data:/data
       - /mnt/notpiracy/media/shows:/shows
+      - /mnt/truenas/qbittorrent/downloads:/downloads
   
   lidarr:
     image: lscr.io/linuxserver/lidarr:latest
@@ -45,9 +46,9 @@ services:
       - PGID=0
       - TZ=Cst/UTC
     volumes:
-      - /mnt/tnssd/lidarr/config:/config
+      - /arrs/lidarr/config:/config
       - /mnt/notpiracy/media/music:/music #optional
-      - /mnt/tnssd/lidarr/downloads:/downloads #optional
+      - /mnt/truenas/qbittorrent/downloads:/downloads #optional
     ports:
       - 8686:8686
     restart: unless-stopped
@@ -60,7 +61,7 @@ services:
       - PGID=0
       - TZ=Cst/UTC
     volumes:
-      - /mnt/tnssd/prowlarr/config:/config
+      - /arrs/prowlarr/config:/config
     ports:
       - 9696:9696
     restart: unless-stopped
