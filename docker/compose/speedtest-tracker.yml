@@ -6,8 +6,8 @@ services:
             - 7498:80
             - 8443:443
         environment:
-            - PUID=0
-            - PGID=0
+            - PUID=1000
+            - PGID=1000
             - DB_CONNECTION=sqlite
             - PUBLIC_DASHBOARD=true
             - APP_KEY=BD9B7Wt+1iKowjUSUHJw2kxXDlquLmf9kr0nGtsNOts=
