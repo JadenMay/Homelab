@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NotesVault/Good to know/Extend PVE Boot Disk.md",
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.160 - checkmk/Setup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NotesVault/Good to know/Extend PVE Boot Disk.md",
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.160 - checkmk/Setup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NotesVault/Good to know/Extend PVE Boot Disk.md",
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.160 - checkmk/Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NotesVault/Good to know/Extend PVE Boot Disk.md"
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.160 - checkmk/Setup.md"
               }
             }
           }
@@ -147,5 +147,10 @@
     }
   },
   "active": "33373b0c1ab78818",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "NotesVault/10.0.0.0 - jdev/10.0.0.250 - pve-pihole/Setup.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.160 - checkmk/Setup.md",
+    "NotesVault/Good to know/Extend PVE Boot Disk.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.160 - checkmk"
+  ]
 }
