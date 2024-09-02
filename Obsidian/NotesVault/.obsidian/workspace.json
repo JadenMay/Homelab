@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af99223b3ba0c45b",
+        "id": "29526582251c6ad6",
         "type": "tabs",
         "children": [
           {
-            "id": "54148cccb89d7824",
+            "id": "bb1f769ccf963bba",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "43e3d7decc048912",
+  "active": "bb1f769ccf963bba",
   "lastOpenFiles": [
+    "10.0.0.0 - jdev/10.0.0.20 - retropie/8384.md",
+    "10.0.0.0 - jdev/10.0.0.150 - TrueNAS/8384 - syncthing.md",
+    "10.0.0.0 - jdev/10.0.0.20 - retropie",
     "10.0.0.0 - jdev/10.0.0.20 - retropie",
     "10.0.0.0 - jdev/10.0.0.50 - rocky",
     "10.0.0.0 - jdev/10.0.0.201 - docker1/8384 - syncthing.md",
@@ -173,9 +176,6 @@
     "10.0.0.0 - jdev/10.0.0.252 - unifiap",
     "10.0.0.0 - jdev/10.0.0.251 - unifi controller/192.168.1.251 - Unifi Controller/Setup.md",
     "10.0.0.0 - jdev/10.0.0.203 - docker3",
-    "10.0.0.0 - jdev/10.0.0.202 - docker2",
-    "10.0.0.0 - jdev/10.0.0.251 - unifi controller/unifi setup.md",
-    "10.0.0.0 - jdev/10.0.0.201 - docker1",
     "Untitled.canvas"
   ]
 }
