@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "11c347ba675625be",
+        "id": "0e3f4a047edd724b",
         "type": "tabs",
         "children": [
           {
-            "id": "31b3dda66e1099b3",
+            "id": "2b5fca1338410795",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "31b3dda66e1099b3",
+  "active": "2c91801e8f6dabd5",
   "lastOpenFiles": [
+    "NotesVault/10.0.0.0 - jdev/10.0.0.170 - emu",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/30072 - unifi controller.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.201 - docker1/7498,8443 - speedtest-tracker.md",
     "NotesVault/Good to know/Extend PVE Boot Disk.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.103 - pve3",
