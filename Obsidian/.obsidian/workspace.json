@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "0e3f4a047edd724b",
+        "id": "af8c3d8776f57eb7",
         "type": "tabs",
         "children": [
           {
-            "id": "2b5fca1338410795",
+            "id": "6fce89a9d0d4ce2e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Ubuntu.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Ubuntu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Ubuntu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Ubuntu.md"
+              }
             }
           }
         ]
@@ -138,8 +146,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c91801e8f6dabd5",
+  "active": "6fce89a9d0d4ce2e",
   "lastOpenFiles": [
+    "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Lakka.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Ubuntu.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.20 - retropie/8384.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu",
     "NotesVault/10.0.0.0 - jdev/10.0.0.170 - emu",
     "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/30072 - unifi controller.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.201 - docker1/7498,8443 - speedtest-tracker.md",
