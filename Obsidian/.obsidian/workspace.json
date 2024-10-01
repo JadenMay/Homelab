@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "af8c3d8776f57eb7",
+        "id": "9019651b1ad33d8e",
         "type": "tabs",
         "children": [
           {
-            "id": "6fce89a9d0d4ce2e",
+            "id": "16a76585e101261d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,14 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6fce89a9d0d4ce2e",
+  "active": "16a76585e101261d",
   "lastOpenFiles": [
-    "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Lakka.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Ubuntu.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/8384 - syncthing.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/30072 - unifi controller.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/How To.md",
+    "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu/Lakka.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.20 - retropie/8384.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.40 - emu",
     "NotesVault/10.0.0.0 - jdev/10.0.0.170 - emu",
-    "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/30072 - unifi controller.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.201 - docker1/7498,8443 - speedtest-tracker.md",
     "NotesVault/Good to know/Extend PVE Boot Disk.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.103 - pve3",
