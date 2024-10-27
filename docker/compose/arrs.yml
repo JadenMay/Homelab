@@ -16,7 +16,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /arrs/radarr/config:/config
       - /arrs/radarr/data:/data
-      - /mnt/12TB/media/movies:/movies
+      - /mnt/12TB/movies:/movies
       - /mnt/truenas/qbittorrent/downloads:/downloads
   
   sonarr:
@@ -35,7 +35,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /arrs/sonarr/config:/config
       - /arrs/sonarr/data:/data
-      - /mnt/12TB/media/shows:/shows
+      - /mnt/12TB/shows:/shows
       - /mnt/truenas/qbittorrent/downloads:/downloads
   
   lidarr:
@@ -47,7 +47,7 @@ services:
       - TZ=Cst/UTC
     volumes:
       - /arrs/lidarr/config:/config
-      - /mnt/12TB/media/music:/music 
+      - /mnt/12TB/music:/music 
       - /mnt/truenas/qbittorrent/downloads:/downloads 
     ports:
       - 8686:8686
