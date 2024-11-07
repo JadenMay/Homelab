@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dea7bc9efd0ddd81",
+        "id": "92b50903a4444349",
         "type": "tabs",
         "children": [
           {
-            "id": "f77a51d1fe273b41",
+            "id": "cb99846ed8ba38dc",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -154,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f77a51d1fe273b41",
+  "active": "cb99846ed8ba38dc",
   "lastOpenFiles": [
+    "NotesVault/New Beginnings.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/How To.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/30072 - unifi controller.md",
