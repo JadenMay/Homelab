@@ -11,10 +11,14 @@
             "id": "cb99846ed8ba38dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "NotesVault/New Beginnings.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "New Beginnings"
             }
           }
         ]
@@ -154,7 +158,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb99846ed8ba38dc",
+  "active": "2c91801e8f6dabd5",
   "lastOpenFiles": [
     "NotesVault/New Beginnings.md",
     "NotesVault/10.0.0.0 - jdev/10.0.0.150 - TrueNAS/pve-nfs.md",
